@@ -1,45 +1,44 @@
-//Criando atributos(variáveis de intância);
-public class Expense {
-    private String categoria;
-    private double valor;
-    private int id;
-    private String data;
+import java.time.LocalDate;
 
-    //Construtor vazio;
+public class Expense {
+    private String category;
+    private double value;
+    private int id;
+    private LocalDate date;
+
     public Expense(){}
 
-    //Construtor preenchido;
-    public Expense(String categoria, double valor, int id, String data){
-        this.categoria = categoria;
-        this.valor = valor;
+    public Expense(String category, double value, int id, LocalDate date){
+        this.category = category;
+        this.value = value;
         this.id = id;
-        this.data = data;
+        this.date = date;
     }
 
-    //Acessar valores dos atributos [get()]. Permitir alteração dos atributos [set()];
-    public String getCategoria() {
-        return categoria;
+    public String getCategory() {
+        return category;
     }
-    public double getValor() {
-        return valor;
+    public double getValue() {
+        return value;
     }
     public int getId() {
         return id;
     }
-    public String getData() {
-        return data;
+    public LocalDate getDate() {
+        return date;
     }
-    public void setCategoria(String categoria){
-        this.categoria = categoria;
+
+    public void setCategory(String category){
+        this.category = category;
     }
-    public void setValor(double valor){
-        this.valor = valor;
+    public void setValue(double value){
+        this.value = value;
     }
     public void setId(int id){
         this.id = id;
     }
-    public void setData(String data) {
-        this.data = data;
+    public void setDate(LocalDate date) {
+        this.date = date;
     }
 }
 

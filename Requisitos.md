@@ -10,7 +10,7 @@ Você vai precisar de conhecimentos nas seguintes áreas para desenvolver este p
 
 #### **Requisitos do Projeto**
 
-1. **Adicionar Despesa**: Você precisa criar uma funcionalidade para adicionar uma nova despesa. Ela deve incluir informações como descrição, valor e data.
+1. **Adicionar Despesa**: Você precisa criar uma funcionalidade para adicionar uma nova despesa. Ela deve incluir informações como descrição, value e data.
     
 2. **Listar Despesas**: Uma funcionalidade que mostre todas as despesas registradas.
     
