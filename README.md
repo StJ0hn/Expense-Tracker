@@ -1,4 +1,4 @@
-##Uma aplicação simples de controle de despesas, em Java, para gerenciamento de finanças.
+## Uma aplicação simples de controle de despesas, em Java, para gerenciamento de finanças.
 A aplicação permite que os usuários:
 - Adicionem;
 - Excluam;
